@@ -1,0 +1,54 @@
+Arguments: 
+  C:\安装\node\node.exe C:\Users\14619\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @babel/core
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\安装\SVN\bin;C;\安装\node\;D:\安装\git\git安装\Git\cmd;C:\Program Files\OpenVPN\bin;D:\安装\windows_openvpn\安装\OpenVPN\bin;C:\shijiedaguan\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\安装\Microsoft VS Code\bin;C:\Users\14619\AppData\Local\Microsoft\WindowsApps;C:\Users\14619\AppData\Roaming\npm;D:\安装\Microsoft VS Code\bin;D;C:\Program Files (x86)\Egret\Egret Wing 3\bin;C:\Users\14619\AppData\Local\atom\bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\14619\AppData\Local\Yarn\Cache\v4\npm-inherits-2.0.1-b17d08d326b4423e568eff719f91b0b1cbdf69f1\node_modules\inherits\package.json' -> 'C:\Users\14619\pratices\react-demo\node_modules\assert\node_modules\inherits\package.json'
+
+npm manifest: 
+  {
+    "name": "react-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "webpack-dev-server --open --port 3000 --hot --progress --compress --host 127.0.0.1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^8.0.5",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "html-webpack-plugin": "^3.2.0",
+      "webpack": "^4.29.3",
+      "webpack-cli": "^3.2.3",
+      "webpack-dev-server": "^3.1.14"
+    },
+    "dependencies": {
+      "react": "^16.8.2",
+      "react-dom": "^16.8.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
